@@ -1,7 +1,9 @@
 import express from 'express';
+import dotenv from 'dotenv';
+dotenv.config();
 import products from './data/products.js';
 //variable for a port
-const port = 5000;
+const port = process.env.PORT || 5000;
 //initialize express
 const app = express();
 //create first route, using an arrow 
