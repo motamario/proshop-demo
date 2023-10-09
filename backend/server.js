@@ -1,9 +1,13 @@
 import express from 'express';
 import dotenv from 'dotenv';
 dotenv.config();
+import connectDB from './config/db.js';
 import products from './data/products.js';
 //variable for a port
 const port = process.env.PORT || 5000;
+
+connectDB(); //Connect to MongoDB
+
 //initialize express
 const app = express();
 //create first route, using an arrow 
