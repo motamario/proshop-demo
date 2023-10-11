@@ -48,7 +48,6 @@ const products = [
     numReviews: 12,
   },
   {
-    _id: '5',
     name: 'Logitech G-Series Gaming Mouse',
     image: '/images/mouse.jpg',
     description:
@@ -85,7 +84,6 @@ const products = [
     numReviews: 12,
   },
   {
-    _id: '8',
     name: 'Yeti',
     image: '/images/yeti.jpg',
     description:
@@ -148,4 +146,4 @@ const products = [
   
 ]
 
-export default products
+export default products;
